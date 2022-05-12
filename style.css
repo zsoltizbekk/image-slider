@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.slider > img {
+    width: 800px;
+    height: 500px;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    
+}
+
+#prevBtn{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(5px 5px 2px rgb(218, 218, 218));
+
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+}
+
+#nextBtn {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(-5px 5px 2px rgb(218, 218, 218));
+}
+
+#id1 {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(5px 5px 2px rgb(218, 218, 218));
+}
+
+#id1 > img {
+    width: 20px;
+}
+#id2 {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(2px 5px 2px rgb(218, 218, 218));
+}
+
+#id2 > img {
+    width: 20px;
+}
+
+#id3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(0px 5px 2px rgb(218, 218, 218));
+}
+
+#id3 > img {
+    width: 20px;
+}
+
+#id4 {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(-2px 5px 2px rgb(218, 218, 218));
+}
+
+#id4 > img {
+    width: 20px;
+}
+
+#id5 {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    filter: invert(83%) sepia(8%) saturate(7%) hue-rotate(351deg) brightness(88%) contrast(92%) drop-shadow(-5px 5px 2px rgb(218, 218, 218));
+}
+
+#id5 > img {
+    width: 20px;
+}
